@@ -114,7 +114,7 @@ def viewshed(file):
                     target_elevation=0.5,
                     memory=32000,
                     overwrite=True,
-                    max_distance=1500,
+                    max_distance=3000,
                     flags="e",
                 )
                 # 2. make binary viewsheds, compute focal statistics, compute object clumps #
